@@ -1,0 +1,13 @@
+.Loader {
+    height: calc(100vh - 230px);
+    overflow: hidden;
+    // width: 100vw;
+    position: relative;
+    &__logo {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(50% -50%);
+        color: grey;
+    }
+}

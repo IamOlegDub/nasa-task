@@ -1,0 +1,11 @@
+$background: #dcd7d7;
+$pt: 50px;
+
+.App {
+    // padding: 50px;
+    // background-color: $background;
+    &__box {
+        padding-top: $pt;
+        padding-bottom: $pt;
+    }
+}
